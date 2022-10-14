@@ -1,0 +1,17 @@
+name: Release | Docker
+on:
+  pull_request:
+    branches:
+      - main
+  push:
+    branches:
+      - main
+jobs:
+  run-tests:
+    runs-on: ubuntu-22.04
+    name: Run tests
+    steps:
+      - name: "Checkout git"
+        uses: actions/checkout@v2
+      - name: "Build image"
+        run: make test
