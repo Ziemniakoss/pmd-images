@@ -1,0 +1,2 @@
+#!/bin/sh
+sh /pmd/bin/run.sh pmd $@

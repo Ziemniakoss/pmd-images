@@ -1,0 +1,63 @@
+#!/bin/sh
+
+set -e
+PMD_LIBS=/pmd/lib
+
+rm $PMD_LIBS/pmd-cpp-*
+rm $PMD_LIBS/pmd-cs-*
+rm $PMD_LIBS/pmd-dart-*
+rm $PMD_LIBS/pmd-fortran-*
+rm $PMD_LIBS/pmd-gherkin-*
+rm $PMD_LIBS/pmd-go-*
+rm $PMD_LIBS/pmd-groovy-*
+rm $PMD_LIBS/pmd-html-*
+rm $PMD_LIBS/pmd-java-*
+rm $PMD_LIBS/pmd-javascript-*
+rm $PMD_LIBS/pmd-jsp-*
+rm $PMD_LIBS/pmd-kotlin-*
+rm $PMD_LIBS/pmd-lua-*
+rm $PMD_LIBS/pmd-matlab-*
+rm $PMD_LIBS/pmd-modelica-*
+rm $PMD_LIBS/pmd-objectivec-*
+rm $PMD_LIBS/pmd-perl-*
+rm $PMD_LIBS/pmd-php-*
+rm $PMD_LIBS/pmd-plsql-*
+rm $PMD_LIBS/pmd-python-*
+rm $PMD_LIBS/pmd-ruby-*
+rm $PMD_LIBS/pmd-scala_*
+rm $PMD_LIBS/pmd-swift-*
+rm $PMD_LIBS/pmd-ui-*
+rm $PMD_LIBS/pmd-visualforce-*
+rm $PMD_LIBS/pmd-vm-*
+rm $PMD_LIBS/pmd-xml-*
+rm $PMD_LIBS/trees_*
+rm $PMD_LIBS/aopalliance-*
+rm $PMD_LIBS/cglib-*
+rm $PMD_LIBS/common_*
+rm $PMD_LIBS/scala-library-*
+rm $PMD_LIBS/scalapb-runtime_*
+rm $PMD_LIBS/fastparse-*
+rm $PMD_LIBS/geny_*
+rm $PMD_LIBS/groovy-*
+#rm $PMD_LIBS/gson-*
+rm $PMD_LIBS/j2objc-annotations-*
+rm $PMD_LIBS/javax.inject-*
+rm $PMD_LIBS/jol-core-*
+rm $PMD_LIBS/jsoup-*
+rm $PMD_LIBS/jsr305-*
+rm $PMD_LIBS/lenses_*
+rm $PMD_LIBS/logback-*
+rm $PMD_LIBS/parsers_*
+rm $PMD_LIBS/protobuf-java-*
+rm $PMD_LIBS/rhino-*
+rm $PMD_LIBS/scala-collection-compat_*
+rm $PMD_LIBS/snakeyaml-*
+rm $PMD_LIBS/sourcecode_*
+rm $PMD_LIBS/error_prone_annotations-*
+rm $PMD_LIBS/antlr4-*
+rm $PMD_LIBS/saxon-*-dom.jar
+rm $PMD_LIBS/stringtemplate-*
+rm $PMD_LIBS/animal-sniffer-annotations-*
+
+echo Libs left:
+ls -lh $PMD_LIBS
